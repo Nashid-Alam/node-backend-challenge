@@ -1,0 +1,20 @@
+{
+  "development": {
+    "database": "node_challenge_development",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "node_challenge_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "node_challenge_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
