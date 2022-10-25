@@ -1,8 +1,8 @@
-const Router = require("express").Router()
+const router = require("express").Router()
 const controller = require("../controllers/PostController")
 
-Router.post("/", controller.createPost)
-Router.get("/:id", controller.getPostById)
-Router.put("/:id", controller.updatePost)
+router.post("/", controller.createPost)
+router.get("/:id", controller.getPostById)
+router.put("/:id", controller.updatePost)
 
-module.exports = Router
+module.exports = router

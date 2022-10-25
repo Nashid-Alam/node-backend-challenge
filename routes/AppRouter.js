@@ -1,8 +1,8 @@
-const Router = require("express").Router()
-const UserRouter = require("./UserRouter")
-const PostRouter = require("./PostRouter")
+const router = require("express").Router()
+const userRouter = require("./UserRouter")
+const postRouter = require("./PostRouter")
 
-Router.use("/users", UserRouter)
-Router.use("/posts", PostRouter)
+router.use("/users", userRouter)
+router.use("/posts", postRouter)
 
-module.exports = Router
+module.exports = router
